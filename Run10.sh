@@ -1,7 +1,7 @@
 sudo apt-get update -y
 sudo apt-get install -y qemu-system-x86-64
 wget -O RTL8139F.iso 'https://drive.google.com/uc?export=download&id=1wDL8vo9mmYKw1HKXZzaYHoKmzSt_wXai'
-wget -O Tiny10.qcow2 'https://download1082.mediafire.com/pzsvnztp7nfg/rdpfg03d75nh58g/Tiny10.qcow2'
+wget -O Tiny10.qcow2 'https://download2264.mediafire.com/ufdscwp6b6xg/rdpfg03d75nh58g/Tiny10.qcow2'
 
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 sudo qemu-system-x86_64 \
