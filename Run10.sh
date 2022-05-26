@@ -17,5 +17,4 @@ sudo qemu-system-x86_64 \
   -smp sockets=1,cores=4,threads=2 \
   -vga std \
   -device e1000,netdev=n0 -netdev user,id=n0 \
-  -device ac97 \
   -accel tcg,thread=multi \
