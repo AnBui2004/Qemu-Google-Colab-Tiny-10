@@ -1,5 +1,7 @@
-sudo apt-get update -y
-sudo apt-get install -y qemu-system-x86-64
+sudo apt-get update && sudo apt-get install -y --no-install-recommends \
+qemu-system-x86_64 \
+novnc \
+websockify \
 wget -O RTL8139F.iso 'https://drive.google.com/uc?export=download&id=1wDL8vo9mmYKw1HKXZzaYHoKmzSt_wXai'
 wget -O Tiny10.qcow2 'https://www.dropbox.com/s/v3gak59mvkqb7g6/Tiny10.qcow2?dl=1'
 
